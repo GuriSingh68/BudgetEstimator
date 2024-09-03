@@ -1,4 +1,4 @@
-package com.project1.budgetEstimator.dto.Request;
+package com.project1.budgetEstimator.dto.RequestDTO;
 
 import lombok.*;
 

@@ -1,10 +1,9 @@
 package com.project1.budgetEstimator.service.ServiceImpl;
 
-import com.project1.budgetEstimator.dto.Request.IncomeRequestDTO;
+import com.project1.budgetEstimator.dto.RequestDTO.IncomeRequestDTO;
 import com.project1.budgetEstimator.dto.ResponseDTO.IncomeResponseDTO;
 import com.project1.budgetEstimator.service.IncomeService;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @AllArgsConstructor
