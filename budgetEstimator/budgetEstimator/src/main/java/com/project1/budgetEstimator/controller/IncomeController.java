@@ -1,5 +1,6 @@
 package com.project1.budgetEstimator.controller;
 
+import com.project1.budgetEstimator.Entity.Income;
 import com.project1.budgetEstimator.dto.RequestDTO.IncomeRequestDTO;
 import com.project1.budgetEstimator.dto.ResponseDTO.IncomeResponseDTO;
 import com.project1.budgetEstimator.service.IncomeService;
@@ -21,7 +22,7 @@ public class IncomeController {
 
     @PostMapping(path = "addIncome")
     public ResponseEntity<Object> addIncome(@RequestBody IncomeRequestDTO income){
-        IncomeResponseDTO saveIncome = incomeService.saveIncome(income);
+        Income saveIncome = incomeService.saveIncome(income);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body("Ok");
     }
 }
